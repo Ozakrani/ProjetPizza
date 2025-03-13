@@ -1,0 +1,38 @@
+.pizzas-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pizza-item {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center;
+    width: 45%;  /* Each pizza occupies 45% of the container's width */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.pizza-image {
+    width: 60%;  /* Full width of the container */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+.pizza-info {
+    padding: 10px;
+}
+
+.pizza-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px 0;
+}
+
+.pizza-info p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}

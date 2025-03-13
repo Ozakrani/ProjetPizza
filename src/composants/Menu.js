@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/Menu.css';
-import logo from '../assets/images/PizzaLogo.png';
+import logo from '../assets/PizzaLogo.png';
 
 function Menu() {
     return (
@@ -12,7 +12,7 @@ function Menu() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="#about">About</Link></li>
                 <li><Link to="/cart">Cart</Link></li>
-                <li><Link to="#contact">Panier</Link></li>
+                <li><Link to="/order">order</Link></li>
             </ul>
         </nav>
     );
