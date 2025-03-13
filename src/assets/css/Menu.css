@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* Espacement entre le logo et les éléments du menu */
+    align-items: center; /* Aligne le logo et le menu verticalement */
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Rend les éléments horizontaux */
+    gap: 20px; /* Espace entre les éléments */
+    padding: 0;
+    margin: 0;
+    margin-right: 20px; /* Ajoute de l'espace à droite du menu */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Change la couleur au survol */
+}
+
+.logo {
+    height: 50px; /* Fixe la hauteur du logo, ajuste selon tes besoins */
+    width: auto; /* Assure que l'image conserve son ratio d'origine */
+    margin-right: 20px; /* Espacement entre le logo et le menu */
+}

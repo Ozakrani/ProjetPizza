@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 150vh;
+  width: 100vw;
+
+}
+
+
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000; /* Assure qu'il est toujours au-dessus */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../../public/PizzaWallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+/* Le reste de la page sous le menu */
+.content-container {
+  flex: 1; /* Prend tout l'espace restant */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px; /* Augmente l'espace sous le menu */
+}
